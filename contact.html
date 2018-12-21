@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <script src="script.js"></script>
+    <script>
+        $(function(){
+            $(".headC").click(function(){
+                $(".headB").slideToggle();
+            });
+        });
+    </script>
+
+</head>
+<body class="nohero">
+    <header>
+        <div class="container">
+            <div class="container-small">
+                <a href="#" class="headA">LOGGER</a>
+
+                <button type="button" class="headC">
+                    <span class="fa fa-bars" title="MENU"></span>
+                </button>
+            </div>
+            
+            <nav class="headB">
+                <ul>
+                    <li><a href="#">TOP</a></li>
+                    <li><a href="#">콘텐츠</a></li>
+                    <li><a href="#">소개</a></li>
+                    <li><a href="#">문의</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+    <article class="post">
+        <div class="container">
+            <h1>문의</h1>
+            <p>LOGGER에 문의가 있다면 다음 연락처로
+                문의해 주세요
+            </p>
+            <div class="contact-wrap">
+                <div class="contact">
+                    <span class="fas fa-phone"></span>
+                    <h2>전화</h2>
+                    <a href="tel:00012345678">010-1234-5678</a>
+                </div>
+                <div class="contact">
+                    <span class="fas fa-envelope"></span>
+                    <h2>이메일</h2>
+                    <a href="mailto:contact@logger.net">
+                        contact@logger.net
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </article>
+
+    <aside class="location">
+        <h2>LOCATION</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25848.606364488056!2d128.52584809171572!3d35.92064472715261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e6eb42d97abf%3A0x696010167f1891d!2sTaejeon-dong%2C+Buk-gu%2C+Daegu!5e0!3m2!1sen!2skr!4v1533094497524" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </aside>
+    <footer>
+        <div class="container">
+            <div class="footA">
+                <h2>LOGGER</h2>
+                <p>주소: IT 전문서시 위키구 북스동<br>
+                    <a href="http://www.naver.com">
+                    http://www.naver.com</a>
+                </p>
+                <nav class="footD">
+                    <ul>
+                        <li><a href="/">
+                            <span class="fab fa-twitter" title="Twitter"></span>
+                        </a></li>
+                        <li><a href="/">
+                            <span class="fab fa-facebook-f" title="Facebook"></span>
+                        </a></li>
+                        <li><a href="/">
+                            <span class="fab fa-google-plus-g" title="Google"></span>
+                        </a></li>
+                        <li><a href="/">
+                            <span class="fab fa-instagram" title="Instagram"></span>
+                        </a></li>
+                        <li><a href="/">
+                            <span class="fab fa-youtube" title="Youtube"></span>
+                        </a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+            <nav class="footB">
+                <div>
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="/">설립</a></li>
+                        <li><a href="/">주소</a></li>
+                        <li><a href="/">지도</a></li>
+                        <li><a href="/">스태프</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="/">설립</a></li>
+                        <li><a href="/">주소</a></li>
+                        <li><a href="/">지도</a></li>
+                        <li><a href="/">스태프</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ABOUT</h3>
+                    <ul>
+                        <li><a href="/">설립</a></li>
+                        <li><a href="/">주소</a></li>
+                        <li><a href="/">지도</a></li>
+                        <li><a href="/">스태프</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="footC">
+                저작권이 들어가지요
+            </div>
+
+            
+        </div>
+    </footer>
+</body>
+</html>
